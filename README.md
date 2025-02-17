@@ -32,7 +32,7 @@ I spent most of my time developing a custom solution to cache images on disk. Th
 
 ## Time Spent
 
-I didn’t clock the exact time, but I spent almost 20 hours on this project over 3 days, dedicating most of that time to learning new techniques and refining my custom disk caching and asynchronous image loading solution to make the project as robust as possible.
+I didn’t clock the exact time, but I spent almost 20 hours on this project, dedicating most of that time to learning new techniques and refining my custom disk caching and asynchronous image loading solution to make the project as robust as possible.
 
 ---
 
