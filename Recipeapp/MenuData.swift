@@ -64,7 +64,7 @@ struct MenuView: View {
                     .padding()
                 Spacer()
             } else {
-                // Display recipes matching the selected cuisine.
+                // Display recipes matching the selected cuisine
                 ScrollView {
                     LazyVStack {
                         ForEach(dishes.filter { $0.cuisine == selectedCuisine }) { dish in
