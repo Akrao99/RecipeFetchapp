@@ -38,7 +38,7 @@ I didn’t clock the exact time, but I spent almost 20 hours on this project, de
 
 ## Tradeoffs and Decisions
 
-By implementing a custom disk caching solution instead of using the built‑in caching methods documented by Apple, I gained greater control over how images are stored and managed. However, there are tradeoffs to this approach. While the custom solution works for now, it is not as thoroughly proven as Apple’s built‑in methods. There might be potential risks that edge cases or unexpected errors could arise in the future that the custom cache may not handle as robustly as the system-provided caching. Additionally, this approach adds more code complexity.
+By implementing a custom disk caching solution instead of using the built‑in AsyncImage caching method documented by Apple, I gained greater control over how images are stored and managed. However, there are tradeoffs to this approach. While the custom solution works for now, it is not as thoroughly proven as Apple’s built‑in methods. There might be potential risks that edge cases or unexpected errors could arise in the future that the custom cache may not handle as robustly as the system-provided caching. Additionally, this approach adds more code complexity.
 
 ---
 
