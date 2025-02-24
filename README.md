@@ -24,24 +24,3 @@ My Recipe App is a single-screen SwiftUI application that displays a list of rec
 
 ---
 
-## Focus Areas
-
-I spent most of my time developing a custom solution to cache images on disk. This involved creating a dedicated cache directory using FileManager, generating safe file URLs via percent encoding, and implementing robust read/write operations for image data. Although SwiftUI’s built‑in AsyncImage could have simplified image loading, the project requirements specified that images must be cached on disk asynchronously. Consequently, I prioritized rewriting the networking and caching code with Swift’s async/await syntax, which made asynchronous operations cleaner. Additionally, I focused on seamless SwiftUI integration by building a custom CachedAsyncImage view that effectively manages loading states and displays images as soon as they’re available.
-
----
-
-## Time Spent
-
-I didn’t clock the exact time, but I spent almost 20 hours on this project, dedicating most of that time to learning new techniques and refining my custom disk caching and asynchronous image loading solution to make the project as robust as possible.
-
----
-
-## Tradeoffs and Decisions
-
-By implementing a custom disk caching solution instead of using the built‑in AsyncImage caching method documented by Apple, I gained greater control over how images are stored and managed. However, there are tradeoffs to this approach. While the custom solution works for now, it is not as thoroughly proven as Apple’s built‑in methods. There might be potential risks that edge cases or unexpected errors could arise in the future that the custom cache may not handle as robustly as the system-provided caching. Additionally, this approach adds more code complexity.
-
----
-
-## Additional Information
-
-This project helped me gain new knowledge and a practical understanding of how async/await works in Swift. Implementing this project was both a challenge and a valuable learning experience.
