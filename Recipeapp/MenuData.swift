@@ -80,7 +80,7 @@ struct MenuView: View {
                                             // Recipe and YouTube links.
                                             if let sourceUrl = dish.sourceUrl,
                                                let url = URL(string: sourceUrl) {
-                                                Link(destination: url) {
+                                                NavigationLink(destination: WebView(url: url)) {
                                                     HStack {
                                                         Image(systemName: "list.clipboard.fill")
                                                         Text("View Recipe")
@@ -91,7 +91,7 @@ struct MenuView: View {
                                             }
                                             if let youtubeUrl = dish.youtubeUrl,
                                                let url = URL(string: youtubeUrl) {
-                                                Link(destination: url) {
+                                                NavigationLink(destination: WebView(url: url)) {
                                                     HStack {
                                                         Image(systemName: "play.circle")
                                                         Text("Video Guide")
