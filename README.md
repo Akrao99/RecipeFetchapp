@@ -3,7 +3,7 @@
 **Recipe App with Custom Image Disk Caching**
 
 ---
-
+![Image](https://github.com/user-attachments/assets/cdd35703-a8a7-4c3f-98b9-b28f404fb4e1)
 ## Summary
 
 My Recipe App is a single-screen SwiftUI application that displays a list of recipes loaded from a remote JSON API. Key features include:
