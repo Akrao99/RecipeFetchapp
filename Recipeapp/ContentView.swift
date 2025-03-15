@@ -13,7 +13,7 @@ struct ContentView: View {
         
         
         
-        VStack {
+        VStack(spacing:0) {
             RecipeLogo()
                 .padding(.top,35)
                 .frame(maxWidth: .infinity, alignment: .center)
